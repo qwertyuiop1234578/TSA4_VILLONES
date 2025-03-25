@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Restaurant Guide</h1>
+            <button id="mainMenuBtn">Main Menu</button>
+        </header>
+        <div class="restaurant-grid">
+            <div class="restaurant-item" data-restaurant="Dango">
+                <img src="./assets/img/Easy Dango Recipe.jpg" alt="Dango">  </div>
+            <div class="restaurant-item" data-restaurant="Curry">
+                <img src="./assets/img/curry.jpg" alt="Curry">  </div>
+            <div class="restaurant-item" data-restaurant="Oni">
+                <img src="./assets/img/oni.jpg" alt="Oni">  </div>
+            <div class="restaurant-item" data-restaurant="Ramen">
+                <img src="./assets/img/ramen.jpg" alt="Ramen">  </div>
+        </div>
+        <div id="restaurantInfoPopup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <div id="restaurantDetails">
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
